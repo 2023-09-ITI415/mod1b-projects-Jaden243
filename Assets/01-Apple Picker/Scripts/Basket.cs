@@ -32,7 +32,7 @@ public class Basket : MonoBehaviour {
 
         //Move the x position of this Basket to the x position of the Mouse
         Vector3 pos = this.transform.position;
-        pos.x = mousePos2D.x;
+        pos.x = mousePos3D.x;
         this.transform.position = pos; 
     }
 
